@@ -1,0 +1,174 @@
+body {
+    font-family: Consolas, monospace; /* Cambio a Consolas */
+    background-color: #2f4f4f; /* Gris oscuro */
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #2f4f4f; /* Verde menta */
+    color: #ffffff; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: Consolas, serif; /* Cambio a Consolas */
+    font-style: italic; /* Aplicamos estilo cursiva */
+    text-align: center;
+    font-size: 45px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #2f4f4f; /* Un color gris oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Mejorar la legibilidad del párrafo */
+}
+
+nav {
+    background-color: #2f4f4f; /* Gris oscuro */
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.agrupar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 0 0 30%;
+}
+
+footer {
+    background-color: #2f4f4f; /* Gris oscuro */
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+}
+
+.agrupar {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+   	align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.imagenes {
+    width: 100%; /* Asegura que el ancho del contenedor de imágenes sea el 100% */
+    display: flex;
+    justify-content: space-between; /* Distribuye las imágenes uniformemente */
+}
+
+.imagenes img {
+    width: 30%; /* Define el ancho de cada imagen */
+    margin-bottom: 10px; /* Espacio entre las imágenes */
+}
+
+aside {
+    margin-top: 50px; /* Espacio entre las imágenes y el enlace */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+#productos h2 {
+    text-align: center; /* Centra el título */
+}
+
+.producto {
+    width: 300px; /* Establece el ancho deseado para cada producto */
+    margin: 20px; /* Añade márgenes entre los productos */
+    display: inline-block; /* Permite que los productos se muestren en línea */
+    vertical-align: top; /* Alinea los productos en la parte superior */
+    text-align: center; /* Centra el contenido dentro de cada producto */
+}
+
+.producto img {
+    width: 200px; /* Establece el ancho deseado para las imágenes de los productos */
+    height: auto; /* Hace que la altura de las imágenes se ajuste automáticamente */
+}
+
+body.pagina-login nav a {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+body.pagina-login section {
+    text-align: center;
+}
+
+body.pagina-login .container {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 500px;
+}
+
+body.pagina-login form {
+    text-align: left;
+}
+
+body.pagina-login .form-group {
+    margin-bottom: 20px;
+}
+
+body.pagina-login input[type="text"],
+body.pagina-login input[type="password"] {
+    width: 100%; /* Ancho del campo de entrada al 100% */
+    padding: 10px; /* Aumenta el espacio de relleno */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+}
+
+body.pagina-login button {
+    background-color: #78c2ad; /* Verde menta */
+    color: #ffffff; /* Blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+body.pagina-login button:hover {
+    background-color: #5a9a84; /* Verde menta más oscuro al pasar el cursor */
+}
+
+body.pagina-login .enlaces {
+    margin-top: 20px; /* Agrega un margen superior */
+}
+
+body.pagina-login footer {
+    text-align: center;
+    background-color: #2f4f4f; /* Gris oscuro */
+    color: #ffffff; /* Blanco */
+    padding: 20px;
+}
